@@ -1,0 +1,51 @@
+name = mycustomtheme
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/mycustomtheme.css
+stylesheets[all][] = css/realocation.css
+stylesheets[all][] = css/variants/blue.css
+stylesheets[all][] = css/variants/brown.css
+stylesheets[all][] = css/variants/cyan.css
+stylesheets[all][] = css/variants/green.css
+stylesheets[all][] = css/variants/orange.css
+stylesheets[all][] = css/variants/pink.css
+stylesheets[all][] = css/variants/purple.css
+stylesheets[all][] = css/variants/red.css
+stylesheets[all][] = libraries/flexslider/flexslider.css
+stylesheets[all][] = libraries/jquery-bxslider/jquery.bxslider.css
+stylesheets[all][] = libraries/font-awesome/css/font-awesome.css
+
+scripts[all][] = js/gmap3.clusterer.js
+scripts[all][] = js/jquery.js
+scripts[all][] = libraries/isotope/jquery.isotope.min.js
+scripts[all][] = js/gmap3.infobox.js
+scripts[all][] = js/gmap3.clusterer.js
+scripts[all][] = js/map.js
+scripts[all][] = libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/transition.js
+scripts[all][] = libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/collapse.js
+scripts[all][] = libraries/jquery-bxslider/jquery.bxslider.min.js
+scripts[all][] = libraries/flexslider/jquery.flexslider.js
+scripts[all][] = js/jquery.chained.min.js
+scripts[all][] = js/realocation.js
+
+
+regions[header]=Header
+regions[navigation-top]=Navigation Top
+regions[navigation-bottom]=Navigation Bottom
+
+regions[main-content]=Main Content
+regions[left-sidebar]=Sidebar left
+regions[content]=Main Content
+regions[right-sidebar]=Sidebar Right
+regions[slider-content]=Slider Content
+regions[static-content]=Static Content
+
+regions[footer]=Footer
+regions[footer1]=Footer1
+regions[footer2]=Footer2
+regions[footer3]=Footer3
+regions[footer-middle]=Footer Middle
+regions[footer-bottom]=Footer Bottom
